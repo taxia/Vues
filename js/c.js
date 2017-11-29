@@ -179,9 +179,9 @@ let rightCon = Vue.component('right-con',{
 });
 let login = Vue.component("login",{
     template:`
-        <div>
+        <div class="box">
         <header class="mui-bar mui-bar-nav">
-            <a class="mui-icon mui-icon-undo" @click="back"></a>
+            <a class="mui-icon mui-icon-back" @click="back"></a>
 			<h1 class="mui-title">登录</h1>
         </header>
         <div class="mui-content">
